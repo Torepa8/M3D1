@@ -1,0 +1,93 @@
+/* ESERCIZIO 1) Crea un selettore per selezionare l'<h1> nella sezione "hero", ovvero nel jumbotron */
+
+div.jumbotron h1.display-4{
+    background-color: red;
+}
+
+/* ESERCIZIO 2) Crea un selettore per selezionare tutti i figli dell'elemento navbar */
+
+nav > span{
+    color: blue;
+    font-size: large;
+}
+
+/* ESERCIZIO 3) Crea un selettore per selezionare il link "Continua a leggere" del jumbotron */
+
+div.jumbotron p:last-child{
+    border:2px solid brown;
+}
+
+/* ESERCIZIO 4) Crea un selettore per selezionare il primo blog post */
+
+div.blog-post:first-of-type{
+    background-color: chartreuse;
+}
+
+/* ESERCIZIO 5) Crea un selettore per selezionare l'<hr> del primo blog post e colorarlo di rosso */
+
+div.blog-post:first-of-type hr{
+    height: 10px;
+    background-color: red;
+}
+
+/* ESERCIZIO 6) Crea un selettore per selezionare i link pari della navbar */
+
+nav > span:nth-child(even){
+    background-color: aqua;
+}
+
+/* ESERCIZIO 7) Crea un selettore per selezionare tutti gli <li> della prima "ordered-list" della sidebar ("Archivio") */
+
+div.p-4 ol.mb-0 li{
+    font-size: xx-large;
+}
+
+/* ESERCIZIO 8) Crea un selettore per selezionare l'autore del secondo blog post */
+
+div.blog-post:nth-of-type(2) p.blog-post-meta a{
+    color: blueviolet;
+    font-style:oblique;
+    background-color: bisque;
+}
+
+/* ESERCIZIO 9) Crea un selettore per selezionare il secondo <li> della lista del terzo blog post */
+
+div.blog-post:nth-of-type(3) li:nth-of-type(2){
+    color: yellow;
+}
+
+/* ESERCIZIO 10) Crea un selettore per selezionare il link "Torna su" che trovi a fondo pagina nell'angolo in basso a destra */
+
+a.float-right.mr-3{
+    font-size: xx-large;
+}
+
+a.float-right{
+    font-size: xx-large;
+}
+
+
+/* ESERCIZIO 11) Crea un selettore per selezionare il bottone "Nuovi" che trovi in basso */
+
+nav.blog-pagination a:last-child{
+    background-color: yellow;
+    border: 3px solid red;
+}
+
+/* ESERCIZIO 12) Crea un selettore per selezionare il secondo link del footer */
+
+footer.blog-footer a:nth-of-type(2){
+    font-size: xx-large;
+}
+
+
+
+
+/* .p-4:last-of-type li:nth-of-type(2) a{
+    background-color: red;
+} */
+
+
+div.blog-post p.blog-post-meta a{
+    border: 4px solid black;
+}
