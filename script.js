@@ -16,14 +16,13 @@ for (const c of contlegg) {
     })
 }
 
-// autori.addEventListener("onmouseover", function(){
-//     alert(autori.st)})
+
 // EXTRA Crea con JavaScript la funzionalità per creare un alert col nome dell'autore ogni volta che il cursore passa sopra l'autore del post.
 
 const autori=document.querySelectorAll("div.blog-post p.blog-post-meta a")
 for (const autore of autori) {    
-    autore.addEventListener("onmouseover", function(event){
-        alert("Elimino il padre corrispondente all'autore che clicco che è "+event.target.innerText)
-        event.target.closest("div.blog-post").remove()
+    autore.addEventListener("mouseover", function(event){
+        alert(event.target.innerText)
+        // event.target.closest("div.blog-post").remove()
     })
 }

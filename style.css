@@ -58,8 +58,8 @@ div.blog-post:nth-of-type(3) li:nth-of-type(2){
 
 /* ESERCIZIO 10) Crea un selettore per selezionare il link "Torna su" che trovi a fondo pagina nell'angolo in basso a destra */
 
-a.float-right.mr-3{
-    font-size: xx-large;
+a.float-right.mr-3{  /*specificity piu alta*/
+    font-size: smaller;
 }
 
 a.float-right{
@@ -87,14 +87,14 @@ footer.blog-footer a:nth-of-type(2){
     background-color: red;
 } */
 
-/* continua a leggere */
+/* continua a leggere 
 .col-md-6 a{
     color: rgb(235, 255, 120);
     font-size: xx-large;
-}
+}*/
 
 
-/* link autori */
+/* link autori 
 div.blog-post p.blog-post-meta a{
     border: 4px solid black;
-}
+}*/
