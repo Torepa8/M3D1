@@ -82,12 +82,19 @@ footer.blog-footer a:nth-of-type(2){
 
 
 
-
+/* link di twitter */
 /* .p-4:last-of-type li:nth-of-type(2) a{
     background-color: red;
 } */
 
+/* continua a leggere */
+.col-md-6 a{
+    color: rgb(235, 255, 120);
+    font-size: xx-large;
+}
 
+
+/* link autori */
 div.blog-post p.blog-post-meta a{
     border: 4px solid black;
 }
