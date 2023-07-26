@@ -13,8 +13,8 @@ nav > span{
 
 /* ESERCIZIO 3) Crea un selettore per selezionare il link "Continua a leggere" del jumbotron */
 
-div.jumbotron p:last-child{
-    border:2px solid brown;
+div.jumbotron p:last-child a{
+    color:brown;
 }
 
 /* ESERCIZIO 4) Crea un selettore per selezionare il primo blog post */
