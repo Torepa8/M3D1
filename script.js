@@ -5,7 +5,7 @@ const twitter=document.querySelector(".p-4:last-of-type li:nth-of-type(2) a")
 }
 
 
-
+//prova commit
 
 // EXTRA Crea con JavaScript la funzionalità per rimuovere il corrispondente elemento padre dal DOM cliccando sul link "Continua a leggere".
 
